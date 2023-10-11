@@ -1,8 +1,7 @@
 
 # 🚀 ChargeurTransformice
 
-Le projet **ChargeurTransformice** est une suite d'outils et de scripts destinée à la manipulation et à la modification de fichiers SWF spécifiques. Utilisant Adobe Animate, VSCode, et JPEXS, ce projet offre un flux de travail fluide pour les développeurs et les designers.
-
+Le projet **ChargeurTransformice** est une suite d'outils et de scripts destinée à la manipulation et à la modification de fichiers SWF spécifiques. Utilisant Adobe Animate, VSCode, et JPEXS.
 ## 🌟 Table des matières
 
 - [Prérequis](#prérequis)
