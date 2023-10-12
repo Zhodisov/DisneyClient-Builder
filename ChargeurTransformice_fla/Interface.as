@@ -155,7 +155,7 @@ package ChargeurTransformice_fla
       
       public var keys:Object;
       
-      public var main_instance:ChargeurTransformice_fla.TransformiceChargeur;
+      public var main_instance:ChargeurTransformice_fla.MainTimeline;
       
       public var keys_instance:ChargeurTransformice_fla.Keys;
       
@@ -205,7 +205,7 @@ package ChargeurTransformice_fla
          super();
          ap_text = "Autoplay";
          this.keys = {};
-         this.main_instance = ChargeurTransformice_fla.TransformiceChargeur.instance;
+         this.main_instance = ChargeurTransformice_fla.MainTimeline.instance;
          this.keys_instance = this.main_instance.Keys;
          is_plat = this.main_instance.premium_level == "PLATINUM";
          is_gold = this.main_instance.premium_level == "GOLD";

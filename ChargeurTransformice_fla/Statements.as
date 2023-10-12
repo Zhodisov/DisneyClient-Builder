@@ -25,7 +25,7 @@ import com.adobe.serialization.json.*;
       
       public var selected_emoji:uint;
       
-      public var main_instance:ChargeurTransformice_fla.TransformiceChargeur;
+      public var main_instance:ChargeurTransformice_fla.MainTimeline;
       
       public var keys_instance:ChargeurTransformice_fla.Keys;
       
@@ -34,7 +34,7 @@ import com.adobe.serialization.json.*;
          super();
          this.images = new Array();
          this.loaders = new Array();
-         this.main_instance = ChargeurTransformice_fla.TransformiceChargeur.instance;
+         this.main_instance = ChargeurTransformice_fla.MainTimeline.instance;
          this.keys_instance = this.main_instance.Keys;
       }
       

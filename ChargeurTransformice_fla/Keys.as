@@ -1,4 +1,4 @@
-package ChargeurTransformice_fla
+﻿package ChargeurTransformice_fla
 {
    import com.adobe.serialization.json.*;
 
@@ -12,7 +12,7 @@ package ChargeurTransformice_fla
    {
        
       
-      public var main_instance:ChargeurTransformice_fla.TransformiceChargeur;
+      public var main_instance:ChargeurTransformice_fla.MainTimeline;
       
       public var app_domain:LoaderInfo;
       
@@ -29,7 +29,7 @@ package ChargeurTransformice_fla
       public function Keys()
       {
          super();
-         this.main_instance = ChargeurTransformice_fla.TransformiceChargeur.instance;
+         this.main_instance = ChargeurTransformice_fla.MainTimeline.instance;
          this.maps = new Array();
          this.locales = {
             "en":{

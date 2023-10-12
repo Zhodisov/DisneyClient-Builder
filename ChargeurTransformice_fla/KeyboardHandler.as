@@ -10,7 +10,7 @@ package ChargeurTransformice_fla
    {
        
       
-      public var main_instance:ChargeurTransformice_fla.TransformiceChargeur;
+      public var main_instance:ChargeurTransformice_fla.MainTimeline;
       
       public var keys_instance:ChargeurTransformice_fla.Keys;
       
@@ -29,7 +29,7 @@ package ChargeurTransformice_fla
       public function KeyboardHandler()
       {
          super();
-         this.main_instance = ChargeurTransformice_fla.TransformiceChargeur.instance;
+         this.main_instance = ChargeurTransformice_fla.MainTimeline.instance;
          this.keys_instance = this.main_instance.Keys;
          this.keys_pressed = new Array();
          this.keys_codes = {
