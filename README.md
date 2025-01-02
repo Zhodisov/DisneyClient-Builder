@@ -27,3 +27,6 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés :
 
 - **Discord**: [SafeMarket Discord](https://discord.gg/ZcNrTqvHPN)
 - **Site Web**: [safemarket.xyz](https://safemarket.xyz)
+
+
+Privacy from private to public
